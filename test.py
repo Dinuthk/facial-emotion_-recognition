@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
-# from keras.models import load_model
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from PIL import Image, ImageDraw, ImageFont
 import os
 
@@ -20,7 +19,7 @@ labels_dict = {0:'Angry', 1:'Disgust', 2:'Fear', 3:'Happy', 4:'Neutral', 5:'Sad'
 # Create image paths for emoji images
 # You'll need to have these images in your working directory or specify the full path
 emoji_files = {
-    0: 'angry.jpg',     # Path to angry emoji image
+    0: 'angry.png',     # Path to angry emoji image
     1: 'disgust.png',   # Path to disgust emoji image
     2: 'fear.png',      # Path to fear emoji image
     3: 'happy.png',     # Path to happy emoji image
